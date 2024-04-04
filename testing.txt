@@ -1,6 +1,14 @@
 This is the testing files.
 
+<<<<<<< HEAD
+
+conflict merge.
+=======
 from github
+<<<<<<< HEAD
 
 
 conflict
+=======
+>>>>>>> 24e5122d71333b394764e4efb8b842355c2a1f02
+>>>>>>> newbranch
