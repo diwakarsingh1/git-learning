@@ -14,3 +14,4 @@ https://chat.openai.com/share/ca3c91b0-3d53-4d76-a288-445e14b0b3c0
 
 
 https://github.com/Felix-Mutinda/django-hrms/blob/master/requirements.txt
+pyjr tsgt onzf mois
