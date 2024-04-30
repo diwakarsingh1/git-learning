@@ -21,3 +21,7 @@ https://tharangarajapaksha.medium.com/postgresql-start-cluster-with-docker-59f3f
 
 
 https://severalnines.com/blog/how-deploy-postgresql-docker-container-using-clustercontrol/?source=post_page-----59f3fdd661e2--------------------------------
+
+
+
+https://tharangarajapaksha.medium.com/postgresql-start-cluster-with-docker-59f3fdd661e2
