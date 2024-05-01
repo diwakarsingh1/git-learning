@@ -25,3 +25,5 @@ https://severalnines.com/blog/how-deploy-postgresql-docker-container-using-clust
 
 
 https://tharangarajapaksha.medium.com/postgresql-start-cluster-with-docker-59f3fdd661e2
+
+https://www.cherryservers.com/blog/how-to-set-up-postgresql-database-replication
