@@ -9,3 +9,8 @@ sudo -u postgres /usr/lib/postgresql/16/bin/initdb -D /var/lib/postgresql/16/mai
 
 
 /usr/lib/postgresql/16/bin/postgres -D /var/lib/postgresql/16/main
+
+
+
+/etc/init.d/postgresql restart
+
