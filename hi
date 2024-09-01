@@ -1,2 +1,3 @@
 hello
 http://ipfs.io/ipfs/QmZcZNULoYRFevwsGW5PmYU8ZqCCu38cZdE2y3AWACiKov
+docker-compose -f docker/docker-compose.yml up -d --build --force-recreate
