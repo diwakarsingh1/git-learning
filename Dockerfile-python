@@ -1,0 +1,26 @@
+FROM python:3.11.2
+
+WORKDIR /app
+
+#RUN apt-get install tesseract-ocr -y
+
+RUN apt-get update && apt-get install -y \
+    wkhtmltopdf \
+    locales \
+    locales-all
+
+COPY ./requirements.txt /app/requirements.txt
+
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+
+COPY ./src /app/src
+COPY .env /app/
+COPY ./docker /app/docker
+
+WORKDIR /app/src
+ENV TZ=Asia/Kolkata
+RUN chmod +x /app/docker/run.sh
+
+EXPOSE 8000
+
+ENTRYPOINT ["/app/docker/run.sh"]
